@@ -164,3 +164,6 @@ git commit  --amend  这个命令会将暂存区中的文件提交。
 > git pull 都会查找当前分支分支所跟踪的服务器与分支，从服务器上抓取数据然后尝试合并入哪个远程分支。
 >
 > 由于git pull 的魔法经常令人困惑所有通常单独显示地使用 fetch 与 merge 命令会更好一些
+
+**若是当前仓库与远程仓库不一样 可以使用 -f 强行推送  push origin master -f  或是使用 --allow-unrelated-histories**
+
